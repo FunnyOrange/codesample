@@ -60,7 +60,7 @@ class Male extends Human{
         parent::__construct($name, $intellect, $agility, $stamina, $strength);
     }
     public function getVersatility(){
-        return $this->getVersatility();
+        return $this->versatility;
     }
 
 }
